@@ -1,0 +1,41 @@
+=== CAPTURA DE ENTORNO Y MAPA TÁCTICO DE TERRARIA (Sun Aug  9 15:54:05 2026) ===
+Jugador: HP 55/100 | Pos: (51593.5, 7206.0)
+Entorno: SUPERFICIE | Equipamiento: Arma=Pico de cobre (4 DMG)
+Estado Inventario: [CERRADO]
+Armadura: Ninguna | Accesorios: Ninguno
+Casas Habitables: 0 | Taller Hub: NO | Cofres: 342
+
+--- MAPA DE BLOQUES (Matriz 2D Alrededor del Personaje) ---
+ .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .   .   .   .   .  [ T] .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .  [ T] .   .   .  [ T] .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .  [ T] .   .   .  [ T] .   .   .  [ T] .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .  [ T] .   .   .  [ T] .   .   .  [ T] .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .  [ T] .   .   .  [ T] .   .  [ T][ T][ T] .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .  [ T] .   .   .  [ T] .   .   .  [ T] .   .   .   .  [ T] .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .  [ T][ T] .   .   .  [ T] .   .   .  [ T] .   .   .   .  [ T] .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .  [ T] .   .   .  [ T] .   .   .  [ T] .   .   .   .  [ T][ T] .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .  [ T][ T][ T] .   .  [ T] .   .  [ T][ T][ T] .   .   .  [ T] .   .   .   .   .   .   .   .   .   .   .   .  
+ .   .   .   .   .  [ T] .   .   .  [ T] .   .   .  [ T] .   .   .   .  [ T] .   .   .   .  [ B][ B][ B] .   .   .   .   .  
+ .   .   .   .   .  [ T] .   .   .  [ T] .   .  [ T][ T][ T] .   .   .  [ T] .   .   .   .  [ B][ B][ B] .   .  [ B][ B][ B]
+ .   .   .   .   .  [ T] .   .  [ T][ T][ T] .   .  [ T] .  [ @] .   .  [ T][ T] .  [ B][ B][ B][ B][ B][ B][ B][ B][ D][ D]
+[ B][ B] .   .  [ T][ T] .   .  [ T][ T][ B] .  [ T][ T][ T] .  [ D][ B][ B][ B][ B][ B][ D][ D][ D][ D][ D][ D][ D][ D][ D]
+[ D][ B][ B][ B][ B][ B][ B][ B][ B][ B][ B][ B][ B][ B][ B] .  [ B][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D]
+[ D][ D][ D][ D][ D][ D][ D][ B][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D]
+[ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D]
+[ D][ S][ S][ S][ S][ S][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D]
+[ D][ S][ S][ S][ S][ S][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D]
+[ D][ D][ D][ S][ S][ S][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ B][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D]
+[ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ B][ D][ D][ B][ D][ D][ D][ D][ D][ D][ B][ D][ D][ D]
+[ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D]
+[ D][ D][ D][ D][ B][ D][ D][ D][ D][ D][ D][ S][ S][ S][ S][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ B][ D][ D][ D][ D][ D]
+[ D][ D][ D][ D][ D][ D][ D][ S][ S][ S][ S][ S][ S][ S][ S][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D][ D]
+[ D][ D][ D][ B][ D][ D][ S][ S][ S][ S][ S][ S][ S][ S][ S][ D][ D][ D][ D][ D][ #][ D][ S][ S][ D][ D][ D][ D][ D][ D][ D]
+[ D][ D][ D][ D][ D][ S][ S][ S][ S][ S][ S][ S][ S][ S][ S][ D][ D][ D][ D][ #][ #][ #][ #][ S][ S][ D][ D][ D][ B][ D][ D]
+[ D][ D][ D][ D][ S][ S][ S][ S][ S][ S][ S][ S][ S][ S][ S][ D][ D][ D][ #][ #][ #][ #][ #][ S][ S][ S][ D][ D][ D][ D][ D]
+[ D][ D][ D][ S][ S][ S][ S][ S][ S][ S][ S][ S][ S][ S][ S][ D][ D][ D][ #][ #][ #][ #][ #][ #][ S][ S][ D][ D][ D][ D][ D]
+
+Leyenda: [@]=Jugador | [WB]=Mesa Trabajo | [Fn]=Horno | [An]=Yunque | [Ch]=Silla/Cofre | [Dr]=Puerta | [ L]=Antorcha | [Cu/Fe/Ag/Au]=Minerales | [ T]=Árbol | [ #]=Pared | [ S]=Piedra | [ W]=Madera

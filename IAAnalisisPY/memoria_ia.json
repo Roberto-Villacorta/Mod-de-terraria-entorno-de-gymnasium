@@ -1,0 +1,109 @@
+{
+    "total_epocas_jugadas": 18,
+    "mejor_puntuacion_historica": 100.0,
+    "fase_maxima_alcanzada": "RECOLECTAR_MADERA",
+    "jefes_derrotados_historicos": [],
+    "recetas_descubiertas": [],
+    "mejor_arma": {
+        "nombre": "Espada corta de cobre",
+        "dano": 5
+    },
+    "mejor_defensa": 0,
+    "accesorios_descubiertos": [],
+    "casas_construidas_total": 0,
+    "historial_epocas": [
+        {
+            "epoca": 1,
+            "puntuacion": 0.0,
+            "resultado": "FRACASO",
+            "objetivo": "EXPLORAR_IZQUIERDA",
+            "razon": "TIEMPO_AGOTADO"
+        },
+        {
+            "epoca": 1,
+            "puntuacion": -100.0,
+            "resultado": "FRACASO",
+            "objetivo": "EXPLORAR_DERECHA",
+            "razon": "MUERTE"
+        },
+        {
+            "epoca": 1,
+            "puntuacion": 100.0,
+            "resultado": "ÉXITO",
+            "objetivo": "EXPLORAR_DERECHA",
+            "razon": "TIEMPO_AGOTADO"
+        },
+        {
+            "epoca": 2,
+            "puntuacion": 5.0,
+            "resultado": "FRACASO",
+            "objetivo": "RECOLECTAR_RECURSOS",
+            "razon": "MUERTE"
+        },
+        {
+            "epoca": 1,
+            "puntuacion": 100.0,
+            "resultado": "ÉXITO",
+            "objetivo": "EXPLORAR_DERECHA",
+            "razon": "TIEMPO_AGOTADO"
+        },
+        {
+            "epoca": 2,
+            "puntuacion": 5.0,
+            "resultado": "FRACASO",
+            "objetivo": "RECOLECTAR_RECURSOS",
+            "razon": "MUERTE"
+        },
+        {
+            "epoca": 1,
+            "puntuacion": 100.0,
+            "resultado": "ÉXITO",
+            "objetivo": "EXPLORAR_DERECHA",
+            "razon": "TIEMPO_AGOTADO"
+        },
+        {
+            "epoca": 2,
+            "puntuacion": 5.0,
+            "resultado": "FRACASO",
+            "objetivo": "RECOLECTAR_RECURSOS",
+            "razon": "MUERTE"
+        },
+        {
+            "epoca": 1,
+            "puntuacion": 100.0,
+            "resultado": "ÉXITO",
+            "objetivo": "EXPLORAR_DERECHA",
+            "razon": "TIEMPO_AGOTADO"
+        },
+        {
+            "epoca": 2,
+            "puntuacion": 5.0,
+            "resultado": "FRACASO",
+            "objetivo": "RECOLECTAR_RECURSOS",
+            "razon": "MUERTE"
+        }
+    ],
+    "memoria_espacial": {
+        "x_min_explorado": 0.0,
+        "x_max_explorado": 0.0,
+        "ultima_posicion": [
+            0.0,
+            0.0
+        ]
+    },
+    "recursos_max_historicos": {
+        "madera": 20
+    },
+    "mejor_inteligencia": {
+        "objetivo": "EXPLORAR_DERECHA",
+        "pesos_acciones": {
+            "MOVER_DERECHA": 0.8
+        },
+        "puntuacion_obtenida": 100.0
+    },
+    "estrategias_fallidas": [
+        "EXPLORAR_IZQUIERDA",
+        "EXPLORAR_DERECHA",
+        "RECOLECTAR_RECURSOS"
+    ]
+}

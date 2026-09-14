@@ -1,0 +1,217 @@
+{
+    "estaciones_trabajo": [
+        "Mano",
+        "Mesa de trabajo",
+        "Horno",
+        "Yunque de hierro",
+        "Yunque de plomo",
+        "Silla y Mesa",
+        "Altar demoniaco",
+        "Altar carmesi",
+        "Forja de infierno",
+        "Forja de mithril",
+        "Yunque de oricalco",
+        "Manipulador antiguo"
+    ],
+    "recetas_crafteo": {
+        "Mesa de trabajo": {
+            "estacion": "Mano",
+            "ingredientes": {"Madera": 10},
+            "categoria": "ESTACION"
+        },
+        "Antorcha": {
+            "estacion": "Mano",
+            "ingredientes": {"Gel": 1, "Madera": 1},
+            "categoria": "ILUMINACION"
+        },
+        "Pared de madera": {
+            "estacion": "Mesa de trabajo",
+            "ingredientes": {"Madera": 1},
+            "categoria": "CONSTRUCCION",
+            "resultado_cantidad": 4
+        },
+        "Puerta de madera": {
+            "estacion": "Mesa de trabajo",
+            "ingredientes": {"Madera": 6},
+            "categoria": "CONSTRUCCION"
+        },
+        "Silla de madera": {
+            "estacion": "Mesa de trabajo",
+            "ingredientes": {"Madera": 4},
+            "categoria": "MUEBLE"
+        },
+        "Mesa de madera": {
+            "estacion": "Mesa de trabajo",
+            "ingredientes": {"Madera": 8},
+            "categoria": "MUEBLE"
+        },
+        "Horno": {
+            "estacion": "Mesa de trabajo",
+            "ingredientes": {"Piedra": 20, "Antorcha": 4, "Madera": 4},
+            "categoria": "ESTACION"
+        },
+        "Yunque de hierro": {
+            "estacion": "Horno",
+            "ingredientes": {"Lingote de hierro": 5},
+            "categoria": "ESTACION"
+        },
+        "Lingote de cobre": {
+            "estacion": "Horno",
+            "ingredientes": {"Mineral de cobre": 3},
+            "categoria": "MATERIAL"
+        },
+        "Lingote de hierro": {
+            "estacion": "Horno",
+            "ingredientes": {"Mineral de hierro": 3},
+            "categoria": "MATERIAL"
+        },
+        "Espada de madera": {
+            "estacion": "Mesa de trabajo",
+            "ingredientes": {"Madera": 7},
+            "categoria": "ARMA"
+        },
+        "Pico de cobre": {
+            "estacion": "Yunque de hierro",
+            "ingredientes": {"Lingote de cobre": 12, "Madera": 4},
+            "categoria": "HERRAMIENTA"
+        },
+        "Casco de hierro": {
+            "estacion": "Yunque de hierro",
+            "ingredientes": {"Lingote de hierro": 15},
+            "categoria": "ARMADURA"
+        },
+        "Pechera de hierro": {
+            "estacion": "Yunque de hierro",
+            "ingredientes": {"Lingote de hierro": 25},
+            "categoria": "ARMADURA"
+        },
+        "Grebas de hierro": {
+            "estacion": "Yunque de hierro",
+            "ingredientes": {"Lingote de hierro": 20},
+            "categoria": "ARMADURA"
+        },
+        "Invocador Ojo Sospechoso": {
+            "estacion": "Altar demoniaco",
+            "ingredientes": {"Lente": 6},
+            "categoria": "INVOCADOR_JEFE"
+        }
+    },
+    "requisitos_casa_npc": {
+        "tamano_minimo_bloques": 60,
+        "tamano_maximo_bloques": 750,
+        "elementos_obligatorios": [
+            "Paredes de fondo validas (no naturales)",
+            "Puerta o Trampilla de acceso",
+            "Fuente de luz (Antorcha, Vela o Candelabro)",
+            "Mueble plano (Mesa, Trabajo o Altar)",
+            "Mueble de confort (Silla, Cama o Banco)"
+        ],
+        "materiales_basicos_casa": {
+            "bloques_estructura": 60,
+            "paredes_fondo": 32,
+            "puerta": 1,
+            "antorcha": 1,
+            "mesa": 1,
+            "silla": 1
+        }
+    },
+    "progresion_jefes_y_hardmode": {
+        "pre_hardmode": [
+            {
+                "nombre": "Rey Slime",
+                "tipo": "JEFE_OPCIONAL",
+                "hp": 2000,
+                "defensa_recomendada": 10,
+                "invocador": "Corona de slime"
+            },
+            {
+                "nombre": "Ojo de Cthulhu",
+                "tipo": "JEFE_INICIAL",
+                "hp": 2800,
+                "defensa_recomendada": 12,
+                "invocador": "Ojo de aspecto sospechoso",
+                "requisito_aparicion": "200 HP maxima y 10 defensa de noche"
+            },
+            {
+                "nombre": "Devorador de Mundos / Cerebro de Cthulhu",
+                "tipo": "JEFE_CORRUPCION",
+                "hp": 3000,
+                "defensa_recomendada": 18,
+                "invocador": "Cebo de gusano / Espina espantosa o romper 3 orbes"
+            },
+            {
+                "nombre": "Esqueletrón",
+                "tipo": "JEFE_MAZMORRA",
+                "hp": 4400,
+                "defensa_recomendada": 22,
+                "requisito": "Hablar con el Anciano de noche en la Mazmorra"
+            },
+            {
+                "nombre": "Abeja Reina",
+                "tipo": "JEFE_JUNGLA",
+                "hp": 3400,
+                "defensa_recomendada": 20,
+                "invocador": "Abeminacion o romper crisalida de la jungla"
+            },
+            {
+                "nombre": "Muro de Carne",
+                "tipo": "JEFE_TRANSICION_HARDMODE",
+                "hp": 8000,
+                "defensa_recomendada": 30,
+                "invocador": "Muneco de vudú del guia tirado a la lava del Inframundo",
+                "desbloquea": "HARDMODE (Mundo se transforma permanentemente)"
+            }
+        ],
+        "hardmode": [
+            {
+                "nombre": "Los Gemelos",
+                "tipo": "JEFE_MECANICO",
+                "hp": 48000,
+                "defensa_recomendada": 45,
+                "invocador": "Ojo mecanico"
+            },
+            {
+                "nombre": "El Destructor",
+                "tipo": "JEFE_MECANICO",
+                "hp": 80000,
+                "defensa_recomendada": 50,
+                "invocador": "Gusano mecanico"
+            },
+            {
+                "nombre": "Skeletron Prime",
+                "tipo": "JEFE_MECANICO",
+                "hp": 28000,
+                "defensa_recomendada": 50,
+                "invocador": "Calavera mecanica"
+            },
+            {
+                "nombre": "Plantera",
+                "tipo": "JEFE_CLAVE_HARDMODE",
+                "hp": 30000,
+                "defensa_recomendada": 60,
+                "requisito": "Derrotar los 3 Jefes Mecanicos y romper capullo de Plantera en la Jungla"
+            },
+            {
+                "nombre": "Golem",
+                "tipo": "JEFE_TEMPLO",
+                "hp": 39000,
+                "defensa_recomendada": 68,
+                "invocador": "Celula de poder del templo en el Altar de Lihzahrd"
+            },
+            {
+                "nombre": "Cultista Lunatico",
+                "tipo": "JEFE_EVENTO_FINAL",
+                "hp": 32000,
+                "defensa_recomendada": 75,
+                "requisito": "Derrotar devotos en la entrada de la Mazmorra"
+            },
+            {
+                "nombre": "Señor de la Luna (Moon Lord)",
+                "tipo": "JEFE_FINAL_TERRARIA",
+                "hp": 145000,
+                "defensa_recomendada": 85,
+                "requisito": "Destruir los 4 Pilares Celestiales (Solar, Vértice, Nebulosa, Polvo Estelar)"
+            }
+        ]
+    }
+}
